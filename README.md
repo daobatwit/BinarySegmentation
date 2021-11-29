@@ -7,7 +7,7 @@ CONTENTS OF THIS FILE
 
  * Introduction <br />
 Osteoarthritis is the most common form of arthritis, affecting roughly 32 million people in the US according to the CDC. With these processed, binary joint images, a future
-project can use them to measure the space between joints to effectviely measure the space between joints to diagnose the stage of Osteoarthritis. 
+project can use them to measure the space between joints to effectively measure the space between joints to diagnose the stage of Osteoarthritis. 
 
 * Requirements <br />
 Python version 3.9.7 or later <br />
