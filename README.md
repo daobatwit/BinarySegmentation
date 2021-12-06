@@ -45,7 +45,7 @@ Steps to manually segment:
 5. Create a new class different from background to annotate the masks
 6. Select the new class, and select the brush tool to outline the joints
 7. Once the joints are highlighted, select the export button
-8. WHen exporting, select the class which contains the highlighted mask and download the file
+8. When exporting, select the class which contains the highlighted mask and download the file
 9. The file is saved as a tiff image, so we need to convert it from a tiff to png
 10. Use the link provided above to download the application ImageJ
 11. Open ImageJ, and open the downloaded file
