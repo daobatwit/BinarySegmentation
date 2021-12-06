@@ -28,6 +28,7 @@ For Iteration Training Stragety:
 We used apeer.com to do the manual segmentation afterwards to add from the failed test result to the training set.
 Needed applications: ImageJ and an account for apeer.com
 https://imagej.nih.gov/ij/download.html
+
 Steps to manually segment:
 1. Create an account in apeer.com
 2. Go to annotate tab and create a new dataset
