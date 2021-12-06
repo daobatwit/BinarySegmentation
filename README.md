@@ -19,7 +19,9 @@ Edit config.py to your file explorer path specifications
  * Installation <br />
 1. Clone repo
 2. Download data sets
-3. run manualSegment.ipynb to obtain images for seg.ipynb script
-4. run seg.ipynb
+3. Update paths in both config.py and util.py
+4. Update paths in manualSegment.ipynb file
+5. Run manualSegment.ipynb to obtain images for seg.ipynb script
+6. Run seg.ipynb
 
 
