@@ -24,4 +24,24 @@ Edit config.py to your file explorer path specifications
 5. Run manualSegment.ipynb to obtain images for seg.ipynb script
 6. Run seg.ipynb
 
-
+For Iteration Training Stragety:
+We used apeer.com to do the manual segmentation afterwards to add from the failed test result to the training set.
+Needed applications: ImageJ and an account for apeer.com
+https://imagej.nih.gov/ij/download.html
+Steps to manually segment:
+1. Create an account in apeer.com
+2. Go to annotate tab and create a new dataset
+3. Once created, click on the new dataset and import the images needed for annotation
+4. When annotating, a new window to create the masks.
+5. Create a new class different from background to annotate the masks
+6. Select the new class, and select the brush tool to outline the joints
+7. Once the joints are highlighted, select the export button
+8. WHen exporting, select the class which contains the highlighted mask and download the file
+9. The file is saved as a tiff image, so we need to convert it from a tiff to png
+10. Use the link provided above to download the application ImageJ
+11. Open ImageJ, and open the downloaded file
+12. Once opened, select the Image tab
+13. Under the Image tab, select the adjust option and select Brightness/Contrast
+14. Once opened, adjust the Brightness from 255 to 1.
+15. The Image should change from a black image to the joint mask.
+16. Save the image as a png file
