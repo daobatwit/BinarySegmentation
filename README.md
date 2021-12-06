@@ -11,7 +11,7 @@ project can use them to measure the space between joints to effectively measure 
 
 * Requirements <br />
 Python version 3.9.7 or later <br />
-Packages: keras, ssl
+Packages: keras, ssl, tensorflow, segmentation_models
 
  * Configuration <br />
 Edit config.py to your file explorer path specifications
